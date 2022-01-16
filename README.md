@@ -1,5 +1,9 @@
 # luftctl
 
-WIP: Small controller board to power two PWM fans from a single USB plug.
+Small ESP32-C3 [controller board](schematic.pdf) to power two PWM fans from a single USB plug.
 
-![](wip.png)
+![](pcb-front.png)
+
+![](pcb-back.png)
+
+![](pcb-render.png)
