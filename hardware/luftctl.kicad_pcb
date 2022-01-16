@@ -2801,8 +2801,8 @@
       (pts
         (xy 164.45 56.15)
         (xy 136.35 56.15)
-        (xy 136.35 41.45)
-        (xy 164.45 41.45)
+        (xy 136.35 50.05)
+        (xy 164.45 50.05)
       )
     )
   )
@@ -2815,10 +2815,10 @@
       (hatch_border_algorithm hatch_thickness) (hatch_min_hole_area 0.3))
     (polygon
       (pts
-        (xy 183.2 75.9)
-        (xy 123.5 75.9)
-        (xy 123.5 48.5)
-        (xy 183.2 48.5)
+        (xy 183.2 75.3)
+        (xy 124.1 75.3)
+        (xy 124.1 49.7)
+        (xy 183.2 49.7)
       )
     )
     (filled_polygon
