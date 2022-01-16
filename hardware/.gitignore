@@ -2,6 +2,7 @@
 # Format documentation: http://kicad-pcb.org/help/file-formats/
 
 panel.*
+fab/
 
 # Temporary files
 *.000
