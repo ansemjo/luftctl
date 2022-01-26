@@ -6,6 +6,8 @@ Small ESP32-C3 [controller board](schematic.pdf) to power two PWM fans from a si
 
 Schematic and PCB design can be found in [`hardware/`](hardware/). It is a KiCAD 6 project.
 
+The schematic is also available as [PDF](schematic.pdf).
+
 ## firmware
 
 The first simple test just loops through {`12v on`, `pwm on`, `12v off`, `pwm off`}.
