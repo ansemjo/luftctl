@@ -30,6 +30,8 @@ The red LED will blink upon every state change.
 
 ## images
 
+![](images/PXL_20220127_105659067.jpg)
+
 ![](images/PXL_20220126_231914811.jpg)
 
 ![](images/pcb-render.png)
