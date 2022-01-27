@@ -1,16 +1,16 @@
 # luftctl
 
-Small ESP32-C3 [controller board](schematic.pdf) to power two PWM fans from a single USB plug.
+Small ESP32-C3 controller board to power two 12V PWM fans from a single USB plug.
 
 ## hardware
 
 Schematic and PCB design can be found in [`hardware/`](hardware/). It is a KiCAD 6 project.
 
-The schematic is also available as [PDF](schematic.pdf).
+The schematic is available as [a PDF](schematic.pdf).
 
 ## firmware
 
-The first simple test just loops through {`12v on`, `pwm on`, `12v off`, `pwm off`}.
+The first simple test just loops through {`5V/off`, `5V/on`, `12V/off`, `12V/on`} with every button press.
 
 Download MicroPython from [micropython.org/download/esp32c3-usb/](https://micropython.org/download/esp32c3-usb/) and flash it with:
 
@@ -26,7 +26,7 @@ ampy -p /dev/ttyACM0 put main.py
 ampy -p /dev/ttyACM0 reset --hard
 ```
 
-The red LED will blink upon every phase change.
+The red LED will blink upon every state change.
 
 ## images
 
