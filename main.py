@@ -43,10 +43,9 @@ def nextstate(_):
   if diff(ticks(), now) < 300:
     print("debounce")
     return
-  else:
-    now = ticks()
-  print(f"next: {i+1}/{len(states)}")
+  now = ticks()
   i = (i+1) % len(states)
+  print(f"next: {i+1}/{len(states)}")
   states[i]()
 
 # register callback on falling edge / button press
